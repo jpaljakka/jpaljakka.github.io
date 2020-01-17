@@ -1,4 +1,4 @@
-/*Navigation css */
+/* nav bar css*/
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
 html,
 body {
@@ -7,13 +7,6 @@ body {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
   padding: 0;
-}
-.construction {
-  display: flex;
-  flex-direction: row;
-  padding-top: 200px 0;
-  inline-size: 20ch;
-  padding-left: 200px;
 }
 
 .containerNav {
@@ -98,13 +91,11 @@ nav a:hover::before {
 }
 
 .toggleMenu {
-  margin-right: 0.5em;
-  font-size: 1.9em;
+  font-size: 1.3em;
   display: none;
   color: #ccc;
   position: relative;
   width: 1cm;
-  cursor: pointer;
 }
 
 .navlink a {
@@ -113,46 +104,9 @@ nav a:hover::before {
   font-size: 1.2em;
 }
 
-/* Intro */
-.intro {
-  max-width: 38em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
-  color: #ccc;
-  letter-spacing: 3px;
-}
-
-/*footer*/
-.contentFooter {
-  left: 0;
-  bottom: 0;
-  position: fixed;
-  margin: 50px 0;
-  padding: 20px 0;
-  width: 100%;
-  text-align: center;
-  background-color: #00000034;
-  letter-spacing: 3px;
-}
-
-.social {
-  display: inline-block;
-  margin: 0.2em;
-  letter-spacing: 3px;
-}
-
-.links {
-  text-decoration: none;
-  color: #ccc;
-}
-
-/* phone */
 @media screen and (max-width: 991px) {
   .toggleMenu {
     display: block;
-    -webkit-transition: ease-in-out 500ms;
-    transition: ease-in-out 500ms;
     max-width: 100px;
   }
   .nav {
@@ -177,27 +131,130 @@ nav a:hover::before {
     height: 0;
   }
   .navlink {
-    text-align: left;
+    text-align: center;
   }
   .nav-active {
     top: 70px;
     display: block;
-    opacity: 95%;
+    opacity: 85%;
     height: 100%;
   }
   .logo {
-    float: left;
-    padding: 20px 0;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    padding: 10px 0;
     inline-size: 20ch;
-    margin-left: 2em;
-  }
-  .intro {
-    max-width: 38em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 2em;
-    color: #ccc;
-    letter-spacing: 2px;
+    margin: 1em;
   }
 }
-/*# sourceMappingURL=index.css.map */
+
+/* contact css */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* input & textfield styles */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 5px;
+}
+
+input[type="text"]:hover,
+textarea:hover {
+  -webkit-transition: ease-in-out 600ms;
+  transition: ease-in-out 600ms;
+  color: #444;
+  opacity: 0.7;
+}
+
+input[type="submit"] {
+  background-color: #6e6e6e;
+  opacity: 0.6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+  opacity: 80%;
+  -webkit-transition: ease-in-out 400ms;
+  transition: ease-in-out 400ms;
+}
+
+/* contact section */
+.container {
+  border-radius: 5px;
+  background-color: #222;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* responsive */
+@media only screen and (max-width: 991px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: #ccc;
+  -webkit-transition: ease-in-out 600ms;
+  transition: ease-in-out 600ms;
+  border-radius: 5px;
+}
+
+.responsive iframe:hover {
+  opacity: 0.7;
+  -webkit-transition: ease-in-out 600ms;
+  transition: ease-in-out 600ms;
+}
+
+/* required fields */
+input:required {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+textarea:required {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/*# sourceMappingURL=contact.css.map */

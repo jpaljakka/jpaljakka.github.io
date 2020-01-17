@@ -1,3 +1,3 @@
 # PaljakkaIT
 
-PHP mailer ei toimi koska tarvitsee salasanan ja SMTP palvelimen käyttäjän jotka harjoituksessa oli omat.
+PHP mailer is out of order and installed only for testing purposes
