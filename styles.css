@@ -64,7 +64,7 @@ ul li a:hover {
 #past {
   background: url("https://source.unsplash.com/EoXGO6yW4Gk/1600x900") no-repeat
     fixed center center/cover;
-  height: 960px;
+  height: 970px;
   width: 100%;
   padding-top: 10%; 
 } 
@@ -90,7 +90,7 @@ ul li a:hover {
 }
 #present {
   background: rgba(230, 230, 233, 0.719);
-  height: 1000px;
+  height: 970px;
   width: 100%;
   padding-top: 10%;
 }
@@ -110,7 +110,7 @@ ul li a:hover {
 #future {
   background: url("https://source.unsplash.com/9SoCnyQmkzI/1600x900") no-repeat
     fixed center center/cover; 
-  height: 1000px;
+  height: 970px;
   width: 100%;
   padding-top: 10%;
 }
