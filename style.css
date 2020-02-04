@@ -9,7 +9,7 @@ html::-webkit-scrollbar {
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
 }
 
@@ -32,12 +32,10 @@ body {
   list-style: none;
   position: relative;
   background-color: white;
-
 }
 
 li,
 a {
-
   display: inline-flex;
   flex-direction: row;
   list-style: none;
@@ -50,7 +48,6 @@ a {
   color: black;
   font-weight: 400;
   font-size: large;
-
 }
 
 ul li a:hover {
@@ -62,8 +59,6 @@ ul li a:hover {
   height: 3px;
   font-size: large;
   background-color: rgba(254, 96, 0, 0.363);
-
-
 }
 
 .logo {
@@ -80,13 +75,13 @@ img {
 /*section one*/
 
 #home {
-  background: url("https://source.unsplash.com/MIllmTC0J3k/1600x900") no-repeat fixed center center/cover;
+  background: url("https://source.unsplash.com/MIllmTC0J3k/1600x900") no-repeat
+    fixed center center/cover;
 
   height: 450px;
   width: 100%;
   padding-top: 27rem;
   padding-bottom: 10rem;
-
 }
 
 h1 {
@@ -112,8 +107,6 @@ h1 {
   background-color: rgba(254, 96, 0, 0.363);
   margin-left: 10rem;
   padding: 20px;
-
-
 }
 
 .btn {
@@ -147,18 +140,15 @@ h1 {
   background-color: whitesmoke;
   height: 500px;
   width: 100%;
-
 }
 
 .content {
   flex: 50%;
   padding: 10px;
-  height: 300px
+  height: 300px;
 }
 
-
 .aboutPicture {
-
   background-size: cover;
   width: 600px;
   height: 500x;
@@ -170,7 +160,6 @@ h1 {
   justify-content: center;
   line-height: 2;
   font-weight: 900;
-
 }
 
 h2 {
@@ -190,13 +179,11 @@ h2 {
   color: white;
 }
 
-
 .contact_us {
   display: grid;
   width: 100%;
   padding: 20px;
   margin-top: 6px;
-
 }
 
 h3 {
@@ -212,7 +199,8 @@ h3 {
   line-height: 2;
 }
 
-#contactForm input, #contactForm label {
+#contactForm input,
+#contactForm label {
   display: inline-block;
 }
 
@@ -220,9 +208,8 @@ h3 {
   width: 30%;
 }
 
-
-input[type=text],
-[type=email],
+input[type="text"],
+[type="email"],
 textarea {
   width: 25rem;
   padding: 10px;
@@ -230,13 +217,9 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: none;
-
 }
 
-
-
-
-input[type=submit] {
+input[type="submit"] {
   background-color: rgba(254, 96, 0, 0.363);
   color: white;
   padding: 12px 20px;
@@ -245,17 +228,17 @@ input[type=submit] {
   border-radius: 5px;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: rgba(254, 97, 0, 0.74);
   transition: ease-in-out 300ms;
 }
 
-h4{
+h4 {
   letter-spacing: 2px;
 }
 
-hr{
- opacity: 0.1;
+hr {
+  opacity: 0.1;
 }
 
 .toTop {
@@ -272,7 +255,6 @@ hr{
   padding: 15px;
   border-radius: 10px;
   font-size: 18px;
-
 }
 
 .toTop:hover {
