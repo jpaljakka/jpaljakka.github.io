@@ -11,6 +11,7 @@
   <script src="js/script.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <title>Global Trade</title>
   <script>
     document.write('<style>.hide{ visibility: hidden; } </style>');
@@ -20,14 +21,14 @@
     
 </head>
 
-
+<div class="sk-folding-cube">
+  <div class="sk-cube1 sk-cube"></div>
+  <div class="sk-cube2 sk-cube"></div>
+  <div class="sk-cube4 sk-cube"></div>
+  <div class="sk-cube3 sk-cube"></div>
+</div>
 <body>
-  <div class="sk-folding-cube">
-    <div class="sk-cube1 sk-cube"></div>
-    <div class="sk-cube2 sk-cube"></div>
-    <div class="sk-cube4 sk-cube"></div>
-    <div class="sk-cube3 sk-cube"></div>
-  </div>
+ 
   <!--HEADER WITH LOGO AND NAV-->
   <div class="siteWrap hide">
   <header>
@@ -44,8 +45,8 @@
   </header>
   <!--FIRST SECTION WITH MAIN CONTENT-->
   <section id="home">
-    <main data-aos="fade-in" class="more">
-      <h1>Welcome to our <br>
+    <main class="more">
+      <h1 data-aos="fade-right">Welcome to our <br>
         homepage!</h1>
       <p class="learnMore">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus reiciendis
         dolorum eveniet ipsam sed. Dolore illo perspiciatis, labore voluptatum quasi debitis quas voluptatibus unde quo
@@ -56,9 +57,9 @@
   </section>
   <section id="about">
     <div class="content">
-      <div class="aboutUs">
+      <div data-aos="fade-right" class="aboutUs">
         <h2>About us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
           Consequuntur quia tenetur atque minus maiores quasi autem rem. <br>
           Sapiente, et, sed nemo doloremque magnam saepe fugit rerum pariatur <br>
           ducimus placeat ab adipisci blanditiis assumenda.
@@ -121,9 +122,10 @@
     <button class="toTop" id="myBtn" title="top">&#9650</button>
   </footer>
 </div>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script>
   AOS.init();
+ 
 </script>
 </body>
 
