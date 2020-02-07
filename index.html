@@ -10,11 +10,26 @@
   <link rel="stylesheet" href="style.css" />
   <script src="js/script.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Global Trade</title>
+  <script>
+    document.write('<style>.hide{ visibility: hidden; } </style>');
+    
+    </script>
+   
+    
 </head>
 
+
 <body>
+  <div class="sk-folding-cube">
+    <div class="sk-cube1 sk-cube"></div>
+    <div class="sk-cube2 sk-cube"></div>
+    <div class="sk-cube4 sk-cube"></div>
+    <div class="sk-cube3 sk-cube"></div>
+  </div>
   <!--HEADER WITH LOGO AND NAV-->
+  <div class="siteWrap hide">
   <header>
     <div class="logo" id="logo">
       <a href="#"><img src="logo/logo.png" alt="global trade" /></a>
@@ -29,7 +44,7 @@
   </header>
   <!--FIRST SECTION WITH MAIN CONTENT-->
   <section id="home">
-    <main class="more">
+    <main data-aos="fade-in" class="more">
       <h1>Welcome to our <br>
         homepage!</h1>
       <p class="learnMore">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus reiciendis
@@ -75,9 +90,9 @@
           <input type="radio" name="letter" value="no"> No <br> <br>
           <hr class="horizontal">
           <h4> Where did you find us?</h4>
-          <input type="checkbox"> Friend told me <br> <br>
-          <input type="checkbox"> Found in the internet<br> <br>
-          <input type="checkbox"> Saw in social media <br><br>
+          <input type="checkbox"> Friend told me <br> 
+          <input type="checkbox"> Found in the internet<br> 
+          <input type="checkbox"> Saw in social media <br>
           <input type="checkbox"> Other <br><br>
           <textarea class="other_checkbox" name="" id="" cols="30" rows="5" placeholder="How?"></textarea>
           <p style="font-size: smaller; color: red;">Fields with * are required</p>
@@ -103,9 +118,13 @@
         <img class="aboutPicture" src="https://source.unsplash.com/pSyfecRCBQA/1600x900" alt="">
       </div>
     </div>
+    <button class="toTop" id="myBtn" title="top">&#9650</button>
   </footer>
-  <button class="toTop" id="myBtn" title="top">&#9650</button>
-
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
