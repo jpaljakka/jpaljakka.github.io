@@ -150,7 +150,7 @@ h1 {
 }
 
 .aboutPicture {
-  background-size: cover;
+  55365
   width: 600px;
   height: 500x;
   border-radius: 10px;
@@ -181,10 +181,12 @@ h2 {
 }
 
 .contact_us {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 20px;
   margin-top: 6px;
+  justify-content: center;
 }
 
 h3 {
@@ -200,6 +202,11 @@ h3 {
   line-height: 2;
 }
 
+#contactForm{
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+}
 #contactForm input,
 #contactForm label {
   display: inline-block;
@@ -359,3 +366,4 @@ hr {
     opacity: 0;
   }
 }
+ @display media only ()
