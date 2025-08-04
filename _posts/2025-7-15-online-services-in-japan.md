@@ -2,7 +2,7 @@
 layout: post
 title: Online services x Japan!
 categories: [Blog]
-tags: [yapping, general]
+tags: [Yapping, General, Cyber Security]
 ---
 
 # Back to Web 1.0

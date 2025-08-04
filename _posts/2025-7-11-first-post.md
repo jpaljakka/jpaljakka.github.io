@@ -2,7 +2,7 @@
 layout: post
 title: Hello, World!
 categories: [Blog]
-tags: [general,introduction]
+tags: [General,Introduction]
 ---
 
 # Welcome to my blog!
